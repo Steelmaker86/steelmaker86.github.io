@@ -1,1 +1,22 @@
-<p>hello</p>
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <title>Passion Project</title>
+  <header><h1>Flashcard Generator for Anki</h1></header>
+  <body>
+    <form>
+      <input type="text" placeholder="FIle Name" class="fName" maxlength="30" />
+      <nobr>
+        <ul id="cardList">
+          <li>
+            <input type="text" placeholder="Card Front" class="front" />
+            <input type="text" placeholder="Card Back" class="back" />
+          </li>
+        </ul>
+      </nobr>
+      <button onclick="appendInputs()">Add Card</button>
+    </form>
+  </body>
+  <footer>Made by: E. L.</footer>
+</html>
