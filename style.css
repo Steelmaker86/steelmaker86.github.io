@@ -6,20 +6,19 @@
 
 body {
   font-family: sans-serif;
-  margin: 2em 1em;
-  line-height: 1.5em;
   background-color: SkyBlue;
   justify-content: center;
   text-align: center;
   position: absolute;
   width: 100%;
+  line-height: normal;
 }
 
 h1 {
   line-height: 1.1;
 }
 
-form {
+div {
   background-color: #eee;
   display: grid;
   grid-gap: 1em;
@@ -41,7 +40,7 @@ input {
   display: inline;
 }
 
-form button {
+button {
   background-color: #bbbbf2;
   border: 2px solid currentColor;
   border-radius: .25em;
@@ -49,10 +48,10 @@ form button {
   font-size: inherit;
   line-height: 1.4em;
   padding: 0.25em 1em;
-  max-width: 20ch;
+  width: 220px;
 }
 
-form button:hover {
+button:hover {
   background-color: lavender;
 }
 
@@ -70,4 +69,7 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.fName {
+  width: 100%;
 }
